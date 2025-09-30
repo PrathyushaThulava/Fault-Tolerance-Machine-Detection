@@ -61,5 +61,3 @@ The dataset used is `iot_equipment_monitoring_dataset.csv`, which contains IoT s
 This project is open-source and available under the [MIT License](LICENSE).
 
 
-Do you want me to also generate a **requirements.txt** (so others can run your project easily)?
-```

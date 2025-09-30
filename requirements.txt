@@ -1,18 +1,26 @@
-streamlit==1.30.0
+# Core web app
+streamlit==1.31.0       # Latest minor update compatible with Python 3.13
 flask==3.1.2
 
-numpy==1.26.5        # compatible with streamlit
-pandas==2.1.1        # compatible with numpy<2
-scikit-learn==1.2.2  # compatible
-xgboost==1.7.6       # okay
-matplotlib==3.7.2    # okay
-pillow==10.0.0       # <11, compatible with streamlit
+# Data handling
+numpy==2.3.3
+pandas==2.0.3
+scikit-learn==1.3.0
+xgboost==1.7.6
 
-# other dependencies (optional, but keep compatible versions)
-python-dateutil==2.9.0
+# Visualization
+matplotlib==3.7.2
+pillow==11.3.0
+altair>=5.0,<6
+cycler==0.12.1
+contourpy==1.0.7
+fonttools==4.60.1
+kiwisolver==1.4.4
+
+# Utilities
+python-dateutil==2.9.0.post0
 tzdata==2025.2
 pytz==2025.2
-cycler==0.12.1
 joblib==1.5.2
 packaging==25.0
 colorama==0.4.6
@@ -21,6 +29,9 @@ blinker==1.9.0
 itsdangerous==2.2.0
 jinja2==3.1.6
 markupsafe==3.0.3
-fonttools==4.60.1
-kiwisolver==1.4.4
-contourpy==1.0.7
+
+# Rich logging
+rich>=14.1.0
+markdown-it-py==4.0.0
+mdurl==0.1.2
+pygments==2.19.2
